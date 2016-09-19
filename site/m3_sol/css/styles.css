@@ -5,6 +5,10 @@ body {
 	font-family: 'Oswald', sans-serif;
 }
 
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
 #main-content {
 	background-color: #9999cc;
 	height: 1000px;
@@ -21,9 +25,21 @@ body {
 	background-color: #fff;
 }
 
+.navbar-collapse {
+	border: 0px;
+}
+
 .navbar-header button.navbar-toggle {
 	clear: both;
 	margin-top: -20px;
+}
+
+.navbar-header button.navbar-toggle:focus {
+	background-color: #fff;
+}
+
+.navbar-header button.navbar-toggle:hover {
+	background-color: #eee;
 }
 
 #header-nav {
